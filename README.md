@@ -6,6 +6,8 @@ Este documento apresenta uma análise de segurança do sistema brasileiro de vot
 
 O sistema eleitoral brasileiro, em sua visão de alto nível, descreve o percurso do software, dados e hardware de votação desde sua criação ou armazenamento até o eleitor, e o caminho de retorno dos votos depositados.
 
+![Image](https://github.com/user-attachments/assets/4285a421-895c-4b8f-a204-9100a31890fa)
+
 ### 1.1 Descrição dos Passos Operacionais 👣
 
 1.  O código do software da urna eletrônica é desenvolvido no Tribunal Superior Eleitoral (TSE).
