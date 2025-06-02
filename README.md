@@ -33,7 +33,7 @@ Os principais ativos que necessitam de proteção e seus objetivos de segurança
   * **Segurança no transporte de informações** (TSE para TRE, chefe dos mesários para TSE) 🚚: O objetivo é garantir a confidencialidade, integridade e disponibilidade dos dados transmitidos. Isso é crucial porque a interceptação ou alteração indevida durante o transporte pode comprometer a validade do processo eleitoral.
   * **Confidencialidade dos códigos do software das urnas eletrônicas** 🔒: O objetivo de segurança é garantir que as informações não sejam acessíveis ou descobertas por entidades não autorizadas. A exposição do código pode permitir a identificação de vulnerabilidades ou a criação de softwares maliciosos.
   * **Urnas eletrônicas** 🗳️: Devem estar em ótimo estado de funcionamento e armazenadas em locais de acesso restrito para limitar as possibilidades de adulteração. O acesso deve ser limitado a poucas pessoas com privilégio mínimo de manuseio, garantindo sua disponibilidade durante todo o processo. A adulteração física ou indisponibilidade das urnas pode inviabilizar a votação.
-  * **Integridade dos votos** ✅: É um ativo de suma importância, devendo garantir o não-repúdio[cite: 23]. Os votos devem ser inalteráveis, com controle de acesso extremamente restrito para garantir a autenticidade das informações registradas nos pen drives usados nas urnas eletrônicas. A alteração ou negação de um voto compromete a legitimidade do resultado.
+  * **Integridade dos votos** ✅: É um ativo de suma importância, devendo garantir o não-repúdio. Os votos devem ser inalteráveis, com controle de acesso extremamente restrito para garantir a autenticidade das informações registradas nos pen drives usados nas urnas eletrônicas. A alteração ou negação de um voto compromete a legitimidade do resultado.
   * **Políticas aplicadas aos envolvidos** 📜: As políticas são de grande valia no sistema eleitoral, abrangendo responsáveis pelo desenvolvimento de sistemas das urnas, divulgação de resultados e voluntários do processo presencial de votação. O conjunto de regras deve ser estudado e aplicado a cada responsável para mitigar possibilidades de engenharia social. Isso é importante para prevenir manipulações e garantir que todos os envolvidos atuem de forma ética e segura.
 
 ## 3\. Ameaças e Adversários 🚨
@@ -43,7 +43,7 @@ As principais ameaças que representam ações potenciais de adversários com o 
 As principais ameaças possíveis são:
 
   * Vazamentos de informações 📉.
-  * Fraudes nos sistemas das urnas eleitorais, ou seja, a alterações indevidas no código executável 🧑‍💻[cite: 29].
+  * Fraudes nos sistemas das urnas eleitorais, ou seja, a alterações indevidas no código executável 🧑‍💻.
   * Violação dos Hardware armazenados 🛠.
   * Engenharia social para obtenção de informações privilegiadas 🎣.
   * Ataques DDoS para interromper o processo de votação e violação dos hardware armazenados 💥.
@@ -56,7 +56,7 @@ Os principais adversários para esses contextos são:
 
 ## 4\. Potenciais Vulnerabilidades 🩹
 
-As potenciais vulnerabilidades que podem ser exploradas pelos adversários para realizar os ataques identificados devem ser identificadas e justificadas[cite: 34]. Para os fins deste exercício, assume-se que as vulnerabilidades apontadas são válidas, mesmo que sua existência real no sistema não seja confirmada, desde que façam sentido em face da descrição do sistema.
+As potenciais vulnerabilidades que podem ser exploradas pelos adversários para realizar os ataques identificados devem ser identificadas e justificadas. Para os fins deste exercício, assume-se que as vulnerabilidades apontadas são válidas, mesmo que sua existência real no sistema não seja confirmada, desde que façam sentido em face da descrição do sistema.
 
 As potenciais vulnerabilidades podem estar presentes em:
 
@@ -86,6 +86,6 @@ A avaliação de riscos dos ativos é a seguinte:
   * **Código do sistema das urnas** 🧑‍💻: Ativo com **alta gravidade de risco** 🔴, pois caso ocorra uma ameaça, afetará todo o processo eleitoral.
   * **Urnas eletrônicas** 🗳️: Ativo com **média gravidade de riscos** 🟠, pois caso ocorra uma ameaça, atrasará o processo eleitoral (que possui um tempo limite) e a urna será substituída por outra.
   * **Integridade de votos** ✅: Ativo de **alta gravidade** 🔴, pois caso ocorra uma ameaça, violará a privacidade e a possibilidade de registros fraudulentos.
-  * **Política de segurança** 📝: Ativo de **média gravidade** 🟠, pois caso ocorra uma ameaça, violará as regras aplicadas, mas deixará registrados os responsáveis que responderam por seus atos[cite: 55]. Esse método é conhecido como *accountability* e garante o não-repúdio dos registros.
+  * **Política de segurança** 📝: Ativo de **média gravidade** 🟠, pois caso ocorra uma ameaça, violará as regras aplicadas, mas deixará registrados os responsáveis que responderam por seus atos. Esse método é conhecido como *accountability* e garante o não-repúdio dos registros.
 
 -----
